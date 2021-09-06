@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style/reponsive.css" />
+
+    <!-- Carrosel -->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
     <title>Netflix clone</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -18,8 +29,79 @@
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">LA CASA DE PAPEL</h3>
+                <p class="descricao">Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior
+                    assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com
+                    certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de modo que
+                    eles possam imprimir 2,4 bilhões de euros. Para fazer isso eles precisam de onze dias de reclusão,
+                    durante o qual eles vão ter que lidar com sessenta e sete reféns e as forças da Polícia de Elite,
+                    com cenas de muita ação e planos brilhantes de El Profesor.</p>
+
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                       <a href="https://www.youtube.com/watch?v=pK1cWze6ozY">ASSISTIR AGORA</a> 
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="./img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="./img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <footer>
 
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+        integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- carrousel -->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
 </body>
+
 </html>
